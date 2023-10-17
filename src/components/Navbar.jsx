@@ -18,7 +18,7 @@ function Navbar() {
     setOpenNav(!openNav);
   };
   return (
-    <div className="flex justify-between items-center h-20 px-4">
+    <div className="flex w-full justify-between items-center h-20 absolute z-10 text-white px-4">
       <div>
         <h1>BEACHES.</h1>
       </div>
@@ -38,7 +38,7 @@ function Navbar() {
         className="md:hidden block cursor-pointer z-10 "
       >
         {openNav ? (
-          <AiOutlineClose size={20} />
+          <AiOutlineClose size={20} className="text-black" />
         ) : (
           <HiOutlineMenuAlt4 size={20} />
         )}
@@ -48,12 +48,12 @@ function Navbar() {
       <div
         className={
           openNav
-            ? 'absolute left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col'
+            ? 'absolute left-0 top-0 w-full text-black bg-gray-100/90 px-4 py-7 flex flex-col'
             : 'absolute left-[-100%]'
         }
       >
         <ul>
-          <h1 className="border-b bg-gray-100">BEACHES.</h1>
+          <h1 className="border-b ">BEACHES.</h1>
           <li className="border-b">Home</li>
           <li className="border-b">Destinations</li>
           <li className="border-b">Travel</li>
