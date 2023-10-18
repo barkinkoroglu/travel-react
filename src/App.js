@@ -1,3 +1,4 @@
+import Carousel from './components/Carousel';
 import Destination from './components/Destination';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -12,6 +13,7 @@ export default function App() {
       <Destination />
       <Search />
       <Select />
+      <Carousel />
     </div>
   );
 }
