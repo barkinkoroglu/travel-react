@@ -34,6 +34,6 @@
   }
 
   .icon {
-    @apply text-2xl text-[--primary-dark];
+    @apply text-2xl text-[--primary-dark] hover:opacity-75 cursor-pointer;
   }
 }
