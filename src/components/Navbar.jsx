@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <div className="flex w-full justify-between items-center h-20 absolute z-10 text-white px-4">
       <div>
-        <h1>BEACHES.</h1>
+        <h1 className="cursor-pointer">BEACHES.</h1>
       </div>
       <ul className="hidden md:flex">
         <li>Home</li>
